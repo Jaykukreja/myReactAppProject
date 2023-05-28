@@ -1,0 +1,7 @@
+"" 
+node_modules/
+dist/
+
+*.class
+.parcel-cache
+#.package.json
