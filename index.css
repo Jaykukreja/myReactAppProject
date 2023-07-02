@@ -1,3 +1,46 @@
-#title {
-    background-color: red;
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.nav-items > ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-items > ul > li {
+    padding: 10px;
+}
+
+.logo {
+   width: 100px;
+   height:100px; 
+}
+
+.card {
+    width: 200px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.card > img {
+    width:100%;
+}
+
+.rest-list {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.shimmer-card {
+    width: 200px;
+    height: 200px;
+    background: lightgrey;
+    margin: 20px;
+}
+
+.menu {
+    display: flex;
 }
